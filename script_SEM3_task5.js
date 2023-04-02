@@ -1,6 +1,7 @@
 let user="КИРА";
 function UserName() {
-    alert(`Привет ${user}!`);
+    let message=`Привет ${user}!`;
+    alert(message);
 }
 
 UserName();
